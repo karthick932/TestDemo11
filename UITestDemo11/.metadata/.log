@@ -1,0 +1,58 @@
+!SESSION 2024-08-06 08:22:46.532 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=17.0.10+7
+JRE 17 Windows 11 amd64-64-Bit Compressed References 20240116_624 (JIT enabled, AOT enabled)
+OpenJ9   - 2c3d78b48
+OMR      - ea8124dbc
+JCL      - 2aad089841f based on jdk-17.0.10+7
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product com.ibm.rational.rft.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rft.product.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-08-06 08:23:12.695
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\karthick_ba'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2024-08-06 08:23:17.554
+!MESSAGE RPTS1518I DS_OUT: Started dataset service C:\Program Files\HCL\DevOpsTest\jdk\bin\java.exe, -jar, C:\Program Files\HCL\DevOpsTest\..\HCLIMShared\plugins\com.ibm.rational.test.lt.server_1.4.900.v20240607_1345\datasets\datasets-service.jar, --spring.profiles.active=wb, --server.port=7081, --server.address=127.0.0.1, --dataset.service.exitdetect=true
+!SESSION 2024-08-06 08:23:47.168 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=17.0.10+7
+JRE 17 Windows 11 amd64-64-Bit Compressed References 20240116_624 (JIT enabled, AOT enabled)
+OpenJ9   - 2c3d78b48
+OMR      - ea8124dbc
+JCL      - 2aad089841f based on jdk-17.0.10+7
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product com.ibm.rational.rft.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rft.product.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-08-06 08:23:58.675
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\karthick_ba'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ibm.rational.test.lt.server 1 0 2024-08-06 08:24:03.740
+!MESSAGE RPTS1518I DS_OUT: Started dataset service C:\Program Files\HCL\DevOpsTest\jdk\bin\java.exe, -jar, C:\Program Files\HCL\DevOpsTest\..\HCLIMShared\plugins\com.ibm.rational.test.lt.server_1.4.900.v20240607_1345\datasets\datasets-service.jar, --spring.profiles.active=wb, --server.port=7081, --server.address=127.0.0.1, --dataset.service.exitdetect=true
+
+!ENTRY com.ibm.rational.test.lt.testgen.core3 1 0 2024-08-06 08:28:47.773
+!MESSAGE RPTTI0001 Test generation started at Tue Aug 06 08:28:47 IST 2024 -- input:  UITestScript.recsession
+
+!ENTRY com.ibm.rational.test.lt.testgen.core3 1 0 2024-08-06 08:28:51.375
+!MESSAGE RPTTI0002 Test generation completed at Tue Aug 06 08:28:51 IST 2024 -- output:  UITestScript.testsuite
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2024-08-06 08:30:49.935
+!MESSAGE RPTR0000W ALOHA STOP for null
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2024-08-06 08:30:49.935
+!MESSAGE RPTR0000W XMLAlohaTypedEventLoader setStatus HISTORY_COMPLETE for null
+
+!ENTRY com.ibm.rational.test.lt.execution 1 0 2024-08-06 08:30:51.483
+!MESSAGE RPTJ1000E Cleaning working directory C:\Users\karthick_ba\AppData\Local\Temp\rpt.UITestScript.7613919139431365042
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 1 0 2024-08-06 08:34:01.767
+!MESSAGE Saving dialog settings

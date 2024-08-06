@@ -1,0 +1,40 @@
+name: FunctionalTestProject
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /FunctionalTestProject
+        type: javaClasspath
+  - name: .project
+  - name: FunctionalTestScript.java
+  - name: FunctionalTestScript.testsuite
+    type: com.ibm.rational.test.rtw.rft.navigator.rftScripts
+    version: 11.0.2.0
+    properties: 
+      features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.rtw.rft'
+      type: com.ibm.rational.test.lt.lttest
+      uid: A1EF53A0530AE370D4A3B23866623164
+    dependencies: 
+      - path: /FunctionalTestProject/.classpath
+        type: FtScriptDependants
+      - path: /FunctionalTestProject/.project
+        type: FtScriptDependants
+      - path: /FunctionalTestProject/FunctionalTestScript.java
+        type: FtScriptDependants
+      - path: /FunctionalTestProject/FunctionalTestScript.testsuite
+        type: FtScriptDependants
+      - path: /FunctionalTestProject/resources/DatastoreDefinition.rftdsd
+        type: FtScriptDependants
+      - path: /FunctionalTestProject/resources/FunctionalTestScript.rftdef
+        type: FtScriptDependants
+      - path: /FunctionalTestProject/resources/FunctionalTestScript.rftxmap
+        type: FtScriptDependants
+      - path: /FunctionalTestProject/resources/FunctionalTestScriptHelper.java
+        type: FtScriptDependants
+  - name: resources
+    resources: 
+      - name: DatastoreDefinition.rftdsd
+      - name: FunctionalTestScript.rftdef
+      - name: FunctionalTestScript.rftxmap
+      - name: FunctionalTestScriptHelper.java

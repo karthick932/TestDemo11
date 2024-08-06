@@ -1,0 +1,7 @@
+name: FunctionalTestProject_logs
+projectReferences: 
+resources: 
+  - name: FunctionalTestScript
+    resources: 
+      - name: rational_ft_log.html
+        type: com.ibm.rational.test.rtw.rft.navigator.rftLogHtml
